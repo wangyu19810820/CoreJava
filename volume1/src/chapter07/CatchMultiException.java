@@ -3,6 +3,7 @@ package chapter07;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class CatchMultiException {
@@ -18,21 +19,34 @@ public class CatchMultiException {
                 throw exception;
             }
         } catch (SQLException e) {
+            System.out.println(e);
             System.out.println(e.getCause());
         }
 
+        System.out.println("--------------------------------------------");
         try(var o = new MyAutoClose();
                 var in = new Scanner(new FileInputStream("src/chapter03/input.txt"))) {
         } catch (Exception e) {
             System.out.println("OK1111111111111111");
             System.out.println(e);
+            System.out.println(Arrays.toString(e.getSuppressed()));
+        } finally {
+            System.out.println("finally");
         }
 
+        System.out.println("--------------------------------------------");
         var o = new MyAutoClose();
         try(o) {
-
+            throw new IOException("IOException");
         } catch (Exception e) {
+            System.out.println("catch");
             e.printStackTrace();
+            var exceptions = e.getSuppressed();
+            for (Throwable t : exceptions) {
+                t.printStackTrace();
+            }
+        } finally {
+            System.out.println("finally");
         }
     }
 
