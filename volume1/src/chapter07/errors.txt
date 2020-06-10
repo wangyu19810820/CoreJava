@@ -1,0 +1,9 @@
+str=java.lang.Throwable
+	at chapter07.PrintStackTraceToString.a2(PrintStackTraceToString.java:19)
+	at chapter07.PrintStackTraceToString.a1(PrintStackTraceToString.java:13)
+	at chapter07.PrintStackTraceToString.main(PrintStackTraceToString.java:9)
+
+java.lang.Throwable
+	at chapter07.PrintStackTraceToString.a2(PrintStackTraceToString.java:19)
+	at chapter07.PrintStackTraceToString.a1(PrintStackTraceToString.java:13)
+	at chapter07.PrintStackTraceToString.main(PrintStackTraceToString.java:9)

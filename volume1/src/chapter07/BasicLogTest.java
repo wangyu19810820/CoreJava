@@ -19,16 +19,16 @@ public class BasicLogTest {
         Logger.getGlobal().setLevel(Level.ALL);
         Logger.getGlobal().config("File -> Open menu item selected");
 
-        myLogger1.setLevel(Level.WARNING);
-        myLogger1.setUseParentHandlers(false);  // 禁用父处理器
-        myLogger1.addHandler(ch);
-        myLogger1.log(Level.WARNING, "myLogger1 warning");
-        myLogger2.info("myLogger2.info");
-        myLogger2.logp(Level.WARNING, "chapter07.BasicLogTest1", "main2", "myLogger2.logp");
-
-
-        myLogger1.setLevel(Level.FINER);
-        read("input.txt", "abc");
+//        myLogger1.setLevel(Level.WARNING);
+//        myLogger1.setUseParentHandlers(false);  // 禁用父处理器
+//        myLogger1.addHandler(ch);
+//        myLogger1.log(Level.WARNING, "myLogger1 warning");
+//        myLogger2.info("myLogger2.info");
+//        myLogger2.logp(Level.WARNING, "chapter07.BasicLogTest1", "main2", "myLogger2.logp");
+//
+//
+//        myLogger1.setLevel(Level.FINER);
+//        read("input.txt", "abc");
 
 //        var e = new IOException("can not read file");
 //        myLogger1.log(Level.FINE, "抛异常", e);

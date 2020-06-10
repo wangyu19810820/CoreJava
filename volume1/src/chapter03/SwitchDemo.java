@@ -6,7 +6,7 @@ public class SwitchDemo {
 
     // 当如此编译：javac -Xlint:fallthrough chapter03/SwitchDemo.java
     // 警告没有break，注解压制此警告
-    @SuppressWarnings("fallthrough")
+    // @SuppressWarnings("fallthrough")
     public static void main(String[] args) {
         var size = Size.MIDDLE;
         switch (size) {
