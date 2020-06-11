@@ -1,6 +1,5 @@
 package chapter08;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 
 public class PairTest2 {
