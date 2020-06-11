@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayListTest {
 
-    @SuppressWarnings("unchecked")
+    // @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         ArrayList<Employee> staff = new ArrayList<>(3);
         var staff1 = new ArrayList<Employee>();
@@ -31,7 +31,8 @@ public class ArrayListTest {
         // 类型化的数组列表，传递给非类型化的数组列表
         update(staff);
         // 非类型的数组列表，传递给数组列表，会有警告
-        staff1 = (ArrayList<Employee>) getAll();
+        @SuppressWarnings("unchecked")
+        ArrayList<Employee> staff2 = (ArrayList<Employee>) getAll();
     }
 
 
