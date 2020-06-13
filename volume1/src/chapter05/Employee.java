@@ -8,6 +8,10 @@ public class Employee {
     private double salary;
     protected LocalDate hireDate;
 
+    public Employee(String n) {
+        name = n;
+    }
+
     public Employee(String n, double s, int year, int month, int day) {
         name = n;
         salary = s;
