@@ -1,11 +1,10 @@
 package chapter09;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
 
-// 执行：java chapter09.SetTest < chapter09/LinkedListTest.java
+// 执行方式：java chapter09.SetTest < chapter09/LinkedListTest.java
 public class SetTest {
 
     public static void main(String[] args) {
