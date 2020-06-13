@@ -6,7 +6,7 @@ import java.util.Map;
 public class HashMapTest {
 
     public static void main(String[] args) {
-        test2();
+        test1();
     }
 
     public static void test1() {
