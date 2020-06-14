@@ -16,6 +16,10 @@ public class Item implements Comparable<Item> {
         return description;
     }
 
+    public int getPartNumber() {
+        return partNumber;
+    }
+
     @Override
     public String toString() {
         return "Item{" +
