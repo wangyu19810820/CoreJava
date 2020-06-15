@@ -36,7 +36,8 @@ public class CatchMultiException {
 
         System.out.println("--------------------------------------------");
         var o = new MyAutoClose();
-        try(o) {
+        var o1 = new MyAutoClose();
+        try(o; o1) {
             throw new IOException("IOException");
         } catch (Exception e) {
             System.out.println("catch");
