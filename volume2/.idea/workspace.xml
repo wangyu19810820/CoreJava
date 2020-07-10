@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec19707-1e7c-4bf3-a912-0f49ae4e0b17" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/CountLongWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volume2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/CreatingStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +61,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDK" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.CreatingStreams">
     <configuration name="CountLongWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter01.CountLongWords" />
       <module name="volume2" />
@@ -85,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreatingStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter01.CreatingStreams" />
+      <module name="volume2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.CreatingStreams" />
         <item itemvalue="应用程序.CountLongWords" />
       </list>
     </recent_temporary>
@@ -101,7 +110,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594002532057</updated>
-      <workItem from="1594002533841" duration="3076000" />
+      <workItem from="1594002533841" duration="3243000" />
+      <workItem from="1594173899205" duration="4999000" />
     </task>
     <servers />
   </component>
@@ -118,24 +128,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="160" key="GridCell.Tab.0.bottom" timestamp="1594020295947">
+    <state x="163" y="0" key="#项目结构" timestamp="1594193867411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594020295947" />
-    <state width="1322" height="160" key="GridCell.Tab.0.center" timestamp="1594020295947">
+    <state x="163" y="0" key="#项目结构/0.0.1366.728@0.0.1366.728" timestamp="1594193867411" />
+    <state width="1322" height="168" key="GridCell.Tab.0.bottom" timestamp="1594216377063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594020295947" />
-    <state width="1322" height="160" key="GridCell.Tab.0.left" timestamp="1594020295946">
+    <state width="1322" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594216377063" />
+    <state width="1322" height="168" key="GridCell.Tab.0.center" timestamp="1594216377063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594020295946" />
-    <state width="1322" height="160" key="GridCell.Tab.0.right" timestamp="1594020295947">
+    <state width="1322" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594216377063" />
+    <state width="1322" height="168" key="GridCell.Tab.0.left" timestamp="1594216377063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594020295947" />
+    <state width="1322" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594216377063" />
+    <state width="1322" height="168" key="GridCell.Tab.0.right" timestamp="1594216377063">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594216377063" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1594003266000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
