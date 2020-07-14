@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec19707-1e7c-4bf3-a912-0f49ae4e0b17" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/CollectingIntoMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/CollectingResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/DownstreamCollectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/cities.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,12 +62,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/chapter01" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="应用程序.CollectingIntoMaps">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\GitHub\CoreJava\volume2\src\main\java\chapter01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.DownstreamCollectors">
     <configuration name="CollectingIntoMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter01.CollectingIntoMaps" />
       <module name="volume2" />
@@ -94,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountLongWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.CountLongWords" />
+    <configuration name="CreatingStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter01.CreatingStreams" />
       <module name="volume2" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatingStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.CreatingStreams" />
+    <configuration name="DownstreamCollectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter01.DownstreamCollectors" />
       <module name="volume2" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.DownstreamCollectors" />
         <item itemvalue="应用程序.CollectingIntoMaps" />
         <item itemvalue="应用程序.CollectingResults" />
         <item itemvalue="应用程序.OptionalTest" />
         <item itemvalue="应用程序.CreatingStreams" />
-        <item itemvalue="应用程序.CountLongWords" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +163,8 @@
       <workItem from="1594173899205" duration="4999000" />
       <workItem from="1594347382214" duration="4547000" />
       <workItem from="1594453093995" duration="5790000" />
+      <workItem from="1594520734426" duration="2730000" />
+      <workItem from="1594714590398" duration="17000" />
     </task>
     <servers />
   </component>
@@ -176,30 +184,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1594456645217">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1594520911084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1594456645217" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1594520911084" />
     <state x="163" y="0" key="#项目结构" timestamp="1594193867411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#项目结构/0.0.1366.728@0.0.1366.728" timestamp="1594193867411" />
-    <state width="1322" height="208" key="GridCell.Tab.0.bottom" timestamp="1594458894226">
+    <state width="1322" height="193" key="GridCell.Tab.0.bottom" timestamp="1594558537064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594458894226" />
-    <state width="1322" height="208" key="GridCell.Tab.0.center" timestamp="1594458894226">
+    <state width="1322" height="193" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594558537064" />
+    <state width="1322" height="193" key="GridCell.Tab.0.center" timestamp="1594558537064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594458894226" />
-    <state width="1322" height="208" key="GridCell.Tab.0.left" timestamp="1594458894225">
+    <state width="1322" height="193" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594558537064" />
+    <state width="1322" height="193" key="GridCell.Tab.0.left" timestamp="1594558537064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594458894225" />
-    <state width="1322" height="208" key="GridCell.Tab.0.right" timestamp="1594458894226">
+    <state width="1322" height="193" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594558537064" />
+    <state width="1322" height="193" key="GridCell.Tab.0.right" timestamp="1594558537064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594458894226" />
+    <state width="1322" height="193" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594558537064" />
     <state width="1322" height="208" key="GridCell.Tab.1.bottom" timestamp="1594458894227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
