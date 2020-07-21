@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec19707-1e7c-4bf3-a912-0f49ae4e0b17" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/ParalletStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/PrimitiveTypeStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter01/alice30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter02/DataIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter02/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter02/ExternalizableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter02/RandomAccessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter02/TextFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter02/employee.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -71,45 +76,23 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\GitHub\CoreJava\volume2\src\main\java\chapter02" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\CoreJava\volume2\src\main\java\chapter01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Documents\GitHub\CoreJava\volume2\src\main\java\chapter01" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="chapter02" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.ParalletStreams">
-    <configuration name="CollectingIntoMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.CollectingIntoMaps" />
+  <component name="RunManager" selected="应用程序.ExternalizableTest">
+    <configuration name="ExternalizableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter02.ExternalizableTest" />
       <module name="volume2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectingResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.CollectingResults" />
-      <module name="volume2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownstreamCollectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.DownstreamCollectors" />
-      <module name="volume2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter01.*" />
+          <option name="PATTERN" value="chapter02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +126,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomAccessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter02.RandomAccessTest" />
+      <module name="volume2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter02.TextFileTest" />
+      <module name="volume2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ExternalizableTest" />
+        <item itemvalue="应用程序.RandomAccessTest" />
+        <item itemvalue="应用程序.TextFileTest" />
         <item itemvalue="应用程序.ParalletStreams" />
         <item itemvalue="应用程序.PrimitiveTypeStreams" />
-        <item itemvalue="应用程序.DownstreamCollectors" />
-        <item itemvalue="应用程序.CollectingIntoMaps" />
-        <item itemvalue="应用程序.CollectingResults" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +179,8 @@
       <workItem from="1594520734426" duration="2730000" />
       <workItem from="1594714590398" duration="17000" />
       <workItem from="1594776239833" duration="4173000" />
+      <workItem from="1595210188864" duration="4052000" />
+      <workItem from="1595293579010" duration="5328000" />
     </task>
     <servers />
   </component>
@@ -188,47 +199,54 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1594520911084">
+    <state x="503" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595295465813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1594520911084" />
+    <state x="503" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1595295465813" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1595299712588">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595299712588" />
     <state x="163" y="0" key="#项目结构" timestamp="1594193867411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#项目结构/0.0.1366.728@0.0.1366.728" timestamp="1594193867411" />
-    <state width="1322" height="179" key="GridCell.Tab.0.bottom" timestamp="1594800384289">
+    <state width="1322" height="88" key="GridCell.Tab.0.bottom" timestamp="1595317723721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594800384289" />
-    <state width="1322" height="179" key="GridCell.Tab.0.center" timestamp="1594800384289">
+    <state width="1322" height="88" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595317723721" />
+    <state width="1322" height="88" key="GridCell.Tab.0.center" timestamp="1595317723721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594800384289" />
-    <state width="1322" height="179" key="GridCell.Tab.0.left" timestamp="1594800384289">
+    <state width="1322" height="88" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595317723721" />
+    <state width="1322" height="88" key="GridCell.Tab.0.left" timestamp="1595317723720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594800384289" />
-    <state width="1322" height="179" key="GridCell.Tab.0.right" timestamp="1594800384289">
+    <state width="1322" height="88" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595317723720" />
+    <state width="1322" height="88" key="GridCell.Tab.0.right" timestamp="1595317723721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594800384289" />
-    <state width="1322" height="208" key="GridCell.Tab.1.bottom" timestamp="1594458894227">
+    <state width="1322" height="88" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595317723721" />
+    <state width="1322" height="88" key="GridCell.Tab.1.bottom" timestamp="1595317723721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="208" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594458894227" />
-    <state width="1322" height="208" key="GridCell.Tab.1.center" timestamp="1594458894226">
+    <state width="1322" height="88" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595317723721" />
+    <state width="1322" height="88" key="GridCell.Tab.1.center" timestamp="1595317723721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="208" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594458894226" />
-    <state width="1322" height="208" key="GridCell.Tab.1.left" timestamp="1594458894226">
+    <state width="1322" height="88" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595317723721" />
+    <state width="1322" height="88" key="GridCell.Tab.1.left" timestamp="1595317723721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="208" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594458894226" />
-    <state width="1322" height="208" key="GridCell.Tab.1.right" timestamp="1594458894226">
+    <state width="1322" height="88" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595317723721" />
+    <state width="1322" height="88" key="GridCell.Tab.1.right" timestamp="1595317723721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="208" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594458894226" />
+    <state width="1322" height="88" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595317723721" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1594003266000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
